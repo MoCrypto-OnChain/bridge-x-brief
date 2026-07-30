@@ -14,7 +14,9 @@ The Bridge X Brief is Bridge X Capital’s evidence-backed publication covering 
 
 ## Published editions
 
-- [Edition 001 — Two Roads. One Financial System.](https://mocrypto-onchain.github.io/bridge-x-brief/editions/001-genius-clarity-stablecoins/)
+- [Edition 001 — Two Roads. One Financial System.](https://brief.bridgexcapital.ai/editions/001-genius-clarity-stablecoins/)
+- [Edition 002 — Identity Is the First Financial Rail.](https://brief.bridgexcapital.ai/editions/002-identity-first-financial-rail/)
+- [Edition 003 — One Position. Three Jobs. Four Risks.](https://brief.bridgexcapital.ai/editions/003-one-position-three-jobs-four-risks/)
 
 ## Repository structure
 
@@ -23,6 +25,10 @@ index.html
 assets/
 editions/
   001-genius-clarity-stablecoins/
+    index.html
+  002-identity-first-financial-rail/
+    index.html
+  003-one-position-three-jobs-four-risks/
     index.html
 templates/
 ```
