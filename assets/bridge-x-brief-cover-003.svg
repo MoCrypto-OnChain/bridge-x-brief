@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#071926"/><stop offset="1" stop-color="#17372d"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="20"/></filter></defs>
+  <rect width="1600" height="900" fill="url(#b)"/><circle cx="230" cy="190" r="180" fill="#d7b35c" opacity=".11" filter="url(#g)"/>
+  <g fill="none" stroke-width="5"><circle cx="800" cy="380" r="112" stroke="#d7b35c"/><path d="M800 492v82M800 574H410M800 574h390M410 574v86M800 574v86M1190 574v86" stroke="#35d37d"/></g>
+  <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-weight="800"><text x="800" y="370" fill="#edf5f1" font-size="30">TOKENIZED</text><text x="800" y="410" fill="#edf5f1" font-size="30">POSITION</text><text x="410" y="710" fill="#35d37d" font-size="30">EARN</text><text x="800" y="710" fill="#35d37d" font-size="30">COLLATERALIZE</text><text x="1190" y="710" fill="#35d37d" font-size="30">REDEPLOY</text></g>
+  <text x="90" y="105" fill="#35d37d" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="5">THE BRIDGE X BRIEF · EDITION 003</text>
+  <text x="90" y="805" fill="#edf5f1" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800">ONE POSITION. THREE JOBS.</text><text x="1510" y="805" fill="#ff6d6d" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800" text-anchor="end">FOUR RISKS.</text>
+  <text x="1510" y="105" fill="#d7b35c" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" text-anchor="end">BX</text>
+</svg>
