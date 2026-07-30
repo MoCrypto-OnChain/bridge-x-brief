@@ -1,5 +1,12 @@
 # The Bridge X Brief
 
+## July 2026 · Volume 01
+
+- Edition 001 — Two Roads. One Financial System.
+- Edition 002 — Identity Is the First Financial Rail.
+- Edition 003 — One Position. Three Jobs. Four Risks.
+- Edition 004 — The Asset Moved. Did Settlement?
+
 **Intelligence for the infrastructure economy.**
 
 The Bridge X Brief is Bridge X Capital’s evidence-backed publication covering digital-asset policy, stablecoins, Web3 infrastructure, institutional adoption, and the systems connecting Main Street to Wall Street.
@@ -17,6 +24,7 @@ The Bridge X Brief is Bridge X Capital’s evidence-backed publication covering 
 - [Edition 001 — Two Roads. One Financial System.](https://brief.bridgexcapital.ai/editions/001-genius-clarity-stablecoins/)
 - [Edition 002 — Identity Is the First Financial Rail.](https://brief.bridgexcapital.ai/editions/002-identity-first-financial-rail/)
 - [Edition 003 — One Position. Three Jobs. Four Risks.](https://brief.bridgexcapital.ai/editions/003-one-position-three-jobs-four-risks/)
+- [Edition 004 — The Asset Moved. Did Settlement?](https://brief.bridgexcapital.ai/editions/004-the-asset-moved-did-settlement/)
 
 ## Repository structure
 
@@ -29,6 +37,8 @@ editions/
   002-identity-first-financial-rail/
     index.html
   003-one-position-three-jobs-four-risks/
+    index.html
+  004-the-asset-moved-did-settlement/
     index.html
 templates/
 ```
