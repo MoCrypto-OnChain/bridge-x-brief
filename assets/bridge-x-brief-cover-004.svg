@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg004" x2="1" y2="1"><stop stop-color="#071926"/><stop offset="1" stop-color="#123b35"/></linearGradient>
+    <radialGradient id="glow004"><stop stop-color="#35d37d" stop-opacity=".2"/><stop offset="1" stop-color="#35d37d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg004)"/>
+  <circle cx="800" cy="390" r="330" fill="url(#glow004)"/>
+  <text x="90" y="105" fill="#35d37d" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="5">THE BRIDGE X BRIEF · EDITION 004</text>
+  <text x="1510" y="105" fill="#d7b35c" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" text-anchor="end">BXB</text>
+  <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-weight="800">
+    <rect x="660" y="270" width="280" height="150" rx="28" fill="#0a202d" stroke="#d7b35c" stroke-width="4"/>
+    <text x="800" y="338" fill="#edf5f1" font-size="30">ATOMIC</text>
+    <text x="800" y="378" fill="#edf5f1" font-size="30">SETTLEMENT</text>
+    <g fill="none" stroke-width="5">
+      <path d="M255 250H565Q625 250 660 310" stroke="#d7b35c"/>
+      <path d="M255 430H565Q625 430 660 380" stroke="#35d37d"/>
+      <path d="M1345 250H1035Q975 250 940 310" stroke="#58b8df"/>
+      <path d="M1345 430H1035Q975 430 940 380" stroke="#ff7878"/>
+    </g>
+    <circle cx="255" cy="250" r="72" fill="#0a202d" stroke="#d7b35c" stroke-width="4"/>
+    <circle cx="255" cy="430" r="72" fill="#0a202d" stroke="#35d37d" stroke-width="4"/>
+    <circle cx="1345" cy="250" r="72" fill="#0a202d" stroke="#58b8df" stroke-width="4"/>
+    <circle cx="1345" cy="430" r="72" fill="#0a202d" stroke="#ff7878" stroke-width="4"/>
+    <text x="255" y="243" fill="#d7b35c" font-size="24">ASSET</text><text x="255" y="273" fill="#d7b35c" font-size="24">RAIL</text>
+    <text x="255" y="423" fill="#35d37d" font-size="24">MONEY</text><text x="255" y="453" fill="#35d37d" font-size="24">RAIL</text>
+    <text x="1345" y="243" fill="#58b8df" font-size="24">IDENTITY</text><text x="1345" y="273" fill="#58b8df" font-size="24">RAIL</text>
+    <text x="1345" y="423" fill="#ff7878" font-size="24">FINALITY</text><text x="1345" y="453" fill="#ff7878" font-size="24">RAIL</text>
+    <path d="M690 500H910" stroke="#35d37d" stroke-width="5"/>
+    <path d="M880 480l30 20-30 20" fill="none" stroke="#35d37d" stroke-width="5"/>
+    <text x="800" y="565" fill="#35d37d" font-size="25" letter-spacing="4">DELIVERY + PAYMENT</text>
+  </g>
+  <text x="90" y="790" fill="#edf5f1" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800">THE ASSET MOVED.</text>
+  <text x="90" y="858" fill="#d7b35c" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800">DID SETTLEMENT?</text>
+</svg>
