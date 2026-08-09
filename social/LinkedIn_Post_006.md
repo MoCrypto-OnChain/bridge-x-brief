@@ -14,6 +14,6 @@ Bridge X Brief 006 examines:
 
 The bank stays. The rails change.
 
-Read the full sourced brief: https://brief.bridgexcapital.ai/editions/006-your-bank-deposit-is-going-on-chain/
+Read the full sourced brief: https://brief.bridgexcapital.ai/editions/006-your-bank-deposit-is-going-on-chain/index.html
 
 #TokenizedDeposits #Banking #Payments #DigitalAssets #Blockchain #Treasury #FinancialInfrastructure #BridgeXBrief
