@@ -1,0 +1,51 @@
+name: Continuity doc check
+
+# Enforces this repo's PROJECT-CONTINUITY.md pointer convention mechanically,
+# mirroring MoCrypto-OnChain/BX-Creative-Labs's aae-continuity-check.yml (the
+# reference implementation of this stack-wide pattern — see aae-spec-v8.md,
+# Section 8 / Pillar Five, and this stack's CLAUDE.md "Canonical Spec
+# Versioning & Placement Convention").
+#
+# What this DOES catch: root pointer files (CLAUDE.md, AGENTS.md) that stop
+# referencing this repo's canonical continuity doc, or that restate a
+# version-specific aae-spec-vN.md filename (only
+# MoCrypto-OnChain/BX-Creative-Labs's docs/aae/PROJECT-CONTINUITY.md is
+# allowed to name one).
+#
+# What this does NOT catch: staleness created by events outside a PR's own
+# diff (a merge, a push, a branch deletion elsewhere) — this repo's
+# PROJECT-CONTINUITY.md should state git-lifecycle facts as identifiers
+# only (PR numbers, commit SHAs), never as resolved status words, per the
+# principle ratified in AAE's continuity doc.
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-continuity-pointer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Require root pointer files to reference the canonical continuity doc
+        run: |
+          status=0
+          for f in CLAUDE.md AGENTS.md; do
+            if [ -f "$f" ]; then
+              if ! grep -q 'docs/bridge-x-brief/PROJECT-CONTINUITY.md' "$f"; then
+                echo "::error::$f exists but does not reference docs/bridge-x-brief/PROJECT-CONTINUITY.md."
+                status=1
+              fi
+            fi
+          done
+          exit $status
+
+      - name: Forbid versioned AAE spec filenames in root pointer files
+        run: |
+          for f in CLAUDE.md AGENTS.md; do
+            if [ -f "$f" ] && grep -qE 'aae-spec-v[0-9]+\.md' "$f"; then
+              echo "::error::$f names a specific spec version (aae-spec-vN.md). Root pointer files must never restate a version-specific filename -- only MoCrypto-OnChain/BX-Creative-Labs's docs/aae/PROJECT-CONTINUITY.md is allowed to. Point at this repo's own PROJECT-CONTINUITY.md instead."
+                exit 1
+            fi
+          done
